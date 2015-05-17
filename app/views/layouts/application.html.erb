@@ -12,6 +12,9 @@
 	
 	<%= render 'layouts/header' %>
 	<div class="container-fluid">
+		<% flash.each do |name, msg| %><%# Flash messages are messages that only pop up once, ie login failed %>
+			<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+		<% end %><%# no = sign after percent if we do not want the text to show on site %>
 		<%= yield %>
 	</div>
 
