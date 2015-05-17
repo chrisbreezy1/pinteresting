@@ -4,10 +4,7 @@ class PagesController < ApplicationController
 
   def about
   end
-
-  def videos
-  end
-
+  
   def contact_us
   end
 end

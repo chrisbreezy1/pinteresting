@@ -1,6 +1,20 @@
-//= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
-//= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
-//= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
-//= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+$body-bg:											#f4f4f4;
+$navbar-height:								40px;
+$navbar-default-bg:						#ececec;
+$navbar-default-brand-color:	#16a085;
+$brand-primary:								#16a085;
+$font-family-sans-serif: 			'PT Sans Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$jumbotron-bg:								#ececec;
+
+.center {
+		text-align: center;
+}
+
+.navbar brand {
+		font-weight: bold;
+}
+
 
 @import 'bootstrap';
